@@ -535,7 +535,7 @@ body {
     background-position: -148px -2px;
     transform: rotateY(0deg);
   }
-  50.5% {
+  50% {
     background-image: url("4.jpg");
     background-position: -238px -2px;
     transform: rotateY(180deg);
@@ -587,7 +587,7 @@ body {
     background-position: -148px -2px;
     transform: rotateY(0deg);
   }
-  50.5% {
+  50% {
     background-image: url("4.jpg");
     background-position: -238px -2px;
     transform: rotateY(180deg);
@@ -639,12 +639,12 @@ body {
     background-position: -118px -2px;
     transform: rotateY(0deg);
   }
-  51% {
+  50% {
     background-image: url("4.jpg");
     background-position: -268px -2px;
     transform: rotateY(180deg);
   }
-  60% {
+  61% {
     background-image: url("4.jpg");
     background-position: -118px -2px;
     transform: rotateY(0deg);
@@ -654,7 +654,7 @@ body {
     background-position: -268px -2px;
     transform: rotateY(180deg);
   }
-  80% {
+  81% {
     background-image: url("5.jpg");
     background-position: -118px -2px;
     transform: rotateY(0deg);
@@ -691,12 +691,12 @@ body {
     background-position: -118px -2px;
     transform: rotateY(0deg);
   }
-  51% {
+  56% {
     background-image: url("4.jpg");
     background-position: -268px -2px;
     transform: rotateY(180deg);
   }
-  60% {
+  65% {
     background-image: url("4.jpg");
     background-position: -118px -2px;
     transform: rotateY(0deg);
@@ -743,7 +743,7 @@ body {
     background-position: -88px -2px;
     transform: rotateY(0deg);
   }
-  51.5% {
+  50% {
     background-image: url("4.jpg");
     background-position: -298px -2px;
     transform: rotateY(180deg);
@@ -795,7 +795,7 @@ body {
     background-position: -88px -2px;
     transform: rotateY(0deg);
   }
-  51.5% {
+  50% {
     background-image: url("4.jpg");
     background-position: -298px -2px;
     transform: rotateY(180deg);
@@ -847,7 +847,7 @@ body {
     background-position: -58px -2px;
     transform: rotateY(0deg);
   }
-  52% {
+  50% {
     background-image: url("4.jpg");
     background-position: -328px -2px;
     transform: rotateY(180deg);
@@ -899,7 +899,7 @@ body {
     background-position: -58px -2px;
     transform: rotateY(0deg);
   }
-  52% {
+  50% {
     background-image: url("4.jpg");
     background-position: -328px -2px;
     transform: rotateY(180deg);
@@ -951,7 +951,7 @@ body {
     background-position: -28px -2px;
     transform: rotateY(0deg);
   }
-  52.5% {
+  50% {
     background-image: url("4.jpg");
     background-position: -358px -2px;
     transform: rotateY(180deg);
@@ -1003,7 +1003,7 @@ body {
     background-position: -28px -2px;
     transform: rotateY(0deg);
   }
-  52.5% {
+  50% {
     background-image: url("4.jpg");
     background-position: -358px -2px;
     transform: rotateY(180deg);
@@ -1055,7 +1055,7 @@ body {
     background-position: -2px -2px;
     transform: rotateY(0deg);
   }
-  53% {
+  50% {
     background-image: url("4.jpg");
     background-position: -388px -2px;
     transform: rotateY(180deg);
@@ -1107,7 +1107,7 @@ body {
     background-position: -2px -2px;
     transform: rotateY(0deg);
   }
-  53% {
+  50% {
     background-image: url("4.jpg");
     background-position: -388px -2px;
     transform: rotateY(180deg);
@@ -1192,5 +1192,3 @@ button::before {
     opacity: 1;
   }
 }
-
-
