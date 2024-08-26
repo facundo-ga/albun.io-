@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(207, 112, 39);
+  margin: 0;
+}
+
+.transition-holder{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  bottom: 0;
+}
+
+.center-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px; 
+  height: auto;
+  z-index: -9;
+  
+  /* Agregamos la animación de flotación */
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Definimos la animación 'float' */
+@keyframes float {
+  0%, 100% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-20px);
+  }
+}
+
+
+.sprite {
+
+  
+  background-image: url(https://tympanus.net/Tutorials/CSSMaskTransition/img/urban-sprite.png);
+    
+  width: 3000%;
+  height: 100%;
+
+  top: 50%;
+  transform: translate(0%, -50%) translateZ(0);
+  position: absolute;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+
+.animated {
+  -webkit-animation: flap 1.4s steps(30) infinite alternate;
+  -moz-animation: flap 1.4s steps(30) infinite alternate;
+  -ms-animation: flap 1.4s steps(30) infinite alternate;
+  -o-animation: flap 1.4s steps(30) infinite alternate;
+  animation: flap 1.4s steps(30) infinite alternate;
+}
+
+
+@-webkit-keyframes flap {
+  from { transform: translate(0%, -50%) translateZ(0); }
+  to { transform: translate(-100%, -50%) translateZ(0); }
+}
+@-moz-keyframes flap {
+  from { transform: translate(0%, -50%) translateZ(0); }
+  to { transform: translate(-100%, -50%) translateZ(0); }
+}
+@-ms-keyframes flap {
+  from { transform: translate(0%, -50%) translateZ(0); }
+  to { transform: translate(-100%, -50%) translateZ(0); }
+}
+@-o-keyframes flap {
+  from { transform: translate(0%, -50%) translateZ(0); }
+  to { transform: translate(-100%, -50%) translateZ(0); }
+}
+@keyframes flap {
+  from { transform: translate(0%, -50%) translateZ(0); }
+  to { transform: translate(-100%, -50%) translateZ(0); }
+}
